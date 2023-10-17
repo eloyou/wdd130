@@ -1,3 +1,15 @@
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,8 +19,6 @@
 #hero-img {
     width: 100%;
 }
-
-
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,6 +32,7 @@ main section {
 
 #background {
     height: 725px;
+    margin:50px;
 }
 
 body {
@@ -35,6 +46,7 @@ nav a {
     text-align: center;
     color: #C2C1A5;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #596869;
@@ -45,17 +57,26 @@ nav a:hover {
     background-color: #515751;
     color: #C2C1A5;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #596869;
     color: #C2C1A5;
 }
+
 #background {
     background-color: #C2C1A5;
+    
 }
+
 .msg {
     background-color: #596869;
     color: #C2C1A5;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #F5F9E9;
@@ -65,8 +86,11 @@ nav a:hover {
 }
 
 footer {
-    background-color: #36453B;
+    background-color: steelblue;
+    color: white;
+    padding: 25px 50px;
     color: #C2C1A5;
+    margin-top: 200px;
 }
 
 footer a {
@@ -76,8 +100,10 @@ footer a {
 footer a:hover {
     color: #596869;;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }   
 
 footer p {
@@ -87,3 +113,62 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+
+
+footer p {
+    padding: 25px;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 25px;
+}
+a {
+    color: white;
+    padding: 25px;
+}
+
+
+
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+
+}
+
+ 
+footer .social img   {
+    padding-top: 15px;
+
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin: 200px;
+}
