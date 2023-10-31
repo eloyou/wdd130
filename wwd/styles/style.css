@@ -200,16 +200,8 @@ main section img {
     z-index: -1;
 }
 
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    position: relative;
-    top: 200px;
-}
 
-#hero-msg h1 {
-    color: yellow;
-}
+
 #hero-msg h4 {
     color: white;
     
