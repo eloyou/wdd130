@@ -313,4 +313,32 @@ main {
     }
 }
 
+.subpage header{
+    height: 20%;
+}
+
+.header h1 {
+    font-size: 80px;
+    color:aliceblue;
+    
+}
+
+.river_img {
+    float: right;
+    width: 50%;
+    margin: 20px;
+    
+}
+
+.description {
+    max-width: 50%;
+    margin: 0 auto;
+    
+}
+
+.description p {
+    font-size: 30px;
+    line-height: 2em;
+}
+
 
