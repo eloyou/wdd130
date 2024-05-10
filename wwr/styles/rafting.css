@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Briem+Hand:wght@100..900&display=swap');
+
+
+:root {
+    --primary-color: #222A59 ;
+    --secondary-color: #E04432;
+    --accent1-color:#68D2E8 ;
+    --accent2-color: #F5F3F6;
+
+    --heading-font: "Briem Hand", serif;
+    --paragraph-font: "Assistant" , serif;
+
+    --nav-background-color: #F0789C;
+    --nav-link-color:#222A59 ;
+    --nav-hover-link-color: #E04432;
+    --nav-hover-background-color: #F7D166 ;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    max-width: 90vw;
+}
+nav {
+    display: flex;
+
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    color: var(--nav-link-color);
+    font-size: 1.5rem;
+}
+
+.hero {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.hero img{
+    display: block;
+    width: 100%;  
+    height: auto;
+}
+
+.hero h1 {
+    width: 100%;
+    position: absolute;
+    font-size: 3.5rem;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    top: 6rem;
+    background-color: rgba(31, 34, 117, 0.6);
+    text-align: center;
+}
+
+.hero article img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.hero article {
+    display: flex;
+    position: absolute;
+    background-color: hsla(231, 51%, 53%, 0.56);
+    width: 70%;
+    top: 22rem;
+    color: white;
+    flex-direction: row-reverse;
+    padding: 2rem;
+
+    
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding-bottom: 1rem;
+
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    
+}
+
+section {
+    padding-top: 10px;
+    
+}
+section img{
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer {
+   display: block;
+}
+
+footer nav a img{
+
+    width: 30px;
+    height: auto;
+
+}
