@@ -51,11 +51,6 @@ aside img {
 
 }
 
-header, footer, .grid {
-    margin: 0 auto;
-    max-width: 840px;
-}
-
 aside p {
     padding: 0;
 }
@@ -66,9 +61,9 @@ footer {
     text-align: center;
 }
 
-header, footer, .grid {
-    margin: 0 auto;
+header, footer , .grid {
     max-width: 840px;
+    margin: 0 auto;
 }
 
 main {
@@ -76,7 +71,15 @@ main {
     margin: 1rem;;
 }
 
+main img {
+    float: right;
+}
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
 /* Class Selectors */
 
 .box {
@@ -87,7 +90,7 @@ main {
     color: black;
 }
 
-≈
+
 
 .grid {
     display: grid;
