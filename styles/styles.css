@@ -51,6 +51,11 @@ aside img {
 
 }
 
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
 aside p {
     padding: 0;
 }
@@ -61,9 +66,9 @@ footer {
     text-align: center;
 }
 
-header, footer , .grid{
-    max-width: 840px;
+header, footer, .grid {
     margin: 0 auto;
+    max-width: 840px;
 }
 
 main {
@@ -82,15 +87,7 @@ main {
     color: black;
 }
 
-main img {
-    float: right;
-}
-
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
+≈
 
 .grid {
     display: grid;
