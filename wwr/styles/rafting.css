@@ -426,6 +426,7 @@ button {
     min-width: 400px ;
     font-size: 1.5rem;
     font-family: var(--heading-font);
+    background-color: var(--nav-background-color);
 
 }
 
@@ -437,8 +438,6 @@ button:hover {
 }
 
 .contact-section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
     border: 3px solid var(--primary-color);
     border-top: 1px solid var(--primary-color);
     border-bottom: 7px solid var(--primary-color);
@@ -446,9 +445,6 @@ button:hover {
 }
 
 .company {
-    z-index: -100;
-    position: fixed;
-    top: 125px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -472,4 +468,44 @@ button:hover {
     margin-bottom: 10px;
 
 
+}
+
+.employes img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    padding-right: 5px;
+}
+
+.employes img:hover {
+    opacity: 50%;
+}
+
+.employes figcaption {
+    text-align: center;
+    padding-bottom: 10px;
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+}
+
+.company-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+
+}
+
+.employes {
+    display: flex;
+    border-left: 2px solid white;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
 }
