@@ -472,7 +472,7 @@ button:hover {
 
 
 .employes img {
-    width: 300px;
+    width: 170px;
     height: 400px;
     object-fit: cover;
     padding-right: 5px;
@@ -505,7 +505,6 @@ button:hover {
     padding-left: 25px;
     padding-right: 20px;
     padding-top: 20px;
-    overflow: scroll;
     
     
     
@@ -513,6 +512,13 @@ button:hover {
 
 iframe {
     width: 100%;
-    height: 300px;
+    height: 500px;
     border: 0;
+}
+
+.map {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+
 }
