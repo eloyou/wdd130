@@ -438,8 +438,9 @@ button:hover {
 }
 
 .contact-section {
+    margin-top: 20px;
     border: 3px solid var(--primary-color);
-    border-top: 1px solid var(--primary-color);
+    border-top: 7px solid var(--primary-color);
     border-bottom: 7px solid var(--primary-color);
 
 }
