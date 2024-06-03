@@ -234,24 +234,23 @@ header {
 
 }
 
-.history {
-    display: flex;
-    flex-flow: column wrap ;
-}
+
 
 .history-content img {
-    width: 30%;
-    height: auto;
+    width: 300px;
+    height: 500px;
     object-fit: cover;
     margin: 20px;
+    flex: 1;
 
 }
 
 .history-content {
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid var(--primary-color);
     background-color: var(--accent1-color);
-    flex-wrap: wrap;
+
 
 }
 
@@ -261,7 +260,7 @@ header {
     padding: 1rem;
     text-indent: 2rem;
     margin-top: 20px;
-    width: 30%;
+    flex: 1;
 
 }
 
