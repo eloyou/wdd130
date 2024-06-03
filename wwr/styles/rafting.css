@@ -234,12 +234,15 @@ header {
 
 }
 
+.history {
+    display: flex;
+    flex-flow: column wrap ;
+}
 
-
-.history img {
-    width: 400px;
-    height: 500px;
-    object-fit: fill;
+.history-content img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
     margin: 20px;
 
 }
@@ -249,16 +252,16 @@ header {
     border: 2px solid var(--primary-color);
     background-color: var(--accent1-color);
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 
 }
 
+
 .history-content p {
     font-size:  clamp(0.5rem, 10vw, 1.2rem);
-    padding: 2rem;
-    text-indent: 3rem;
-    flex: 1 1 200px;
+    padding: 1rem;
+    text-indent: 2rem;
+    margin-top: 20px;
+    width: 30%;
 
 }
 
@@ -524,4 +527,130 @@ iframe {
     height: 100%;
     margin-right: 10px;
 
+}
+
+
+/* Trip Page */
+
+.trip-page-container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+.trip-hero {
+    display: flex;
+    margin-top: 20px;
+    border: 3px solid var(--primary-color);
+    border-top: 7px solid var(--primary-color);
+    border-bottom: 7px solid var(--primary-color);
+    flex-flow: column wrap;
+}
+
+.trip-hero img {
+    max-width: 100%;
+    min-width: 50%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+}
+
+.trip-hero h1 {
+    width: 100%;
+    color: #F5F3F6;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    right: 0;
+    font-size: clamp(3rem, 9vw ,5rem);
+}
+
+.book-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book-now a {
+    width: 40%;
+    margin: 30px auto;
+    background-color: var(--accent1-color);
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-radius: 30px;
+    padding: 5px;
+    font-family: var(--paragraph-font);
+}
+
+.book-now a:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+.book-now p {
+    width: 70%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.trip-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+
+}
+.trips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.trips section img {
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.trips section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 2px solid var(--primary-color);
+    max-width: 500px;
+    padding: 0 10px;
+}
+
+.trips section h3 {
+    font-family: var(--paragraph-font);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--nav-hover-link-color);
+}
+
+.trips section a {
+    width: 100%;
+    background-color: var(--nav-hover-link-color);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: var(--nav-link-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+ 
+}
+
+.trips section a:hover {
+    background-color: var(--nav-background-color);
 }
