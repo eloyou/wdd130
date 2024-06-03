@@ -654,3 +654,10 @@ iframe {
 .trips section a:hover {
     background-color: var(--nav-background-color);
 }
+
+.trip-section h2 {
+    font-size: 3rem;
+    border-bottom: 1px solid var(--nav-link-color);
+    width: 50%;
+    text-align: center;
+}
